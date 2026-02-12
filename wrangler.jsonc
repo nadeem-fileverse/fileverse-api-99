@@ -1,0 +1,15 @@
+{
+  "name": "fileverse-api-99",
+  "main": "src/worker.ts",
+  "compatibility_date": "2026-02-11",
+  "compatibility_flags": ["nodejs_compat"],
+  "hyperdrive": [
+    {
+      "binding": "HYPERDRIVE",
+      "id": "ed2cd202f27047c99a915d4775bb6e81"
+    }
+  ],
+  "observability": {
+    "enabled": true
+  }
+}

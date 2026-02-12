@@ -1,0 +1,20 @@
+{
+  "name": "fileverse-api-99",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "One-click Cloudflare deploy template for Fileverse API (PostgreSQL)",
+  "scripts": {
+    "dev": "npx wrangler dev",
+    "deploy": "npx wrangler deploy"
+  },
+  "dependencies": {
+    "@fileverse/api": "^0.0.6",
+    "hono": "^4.11.9"
+  },
+  "devDependencies": {
+    "@cloudflare/workers-types": "^4.20250214.0",
+    "typescript": "~5.5.0",
+    "wrangler": "^4.25.0"
+  }
+}
